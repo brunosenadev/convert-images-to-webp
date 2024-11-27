@@ -3,8 +3,8 @@ from PIL import Image
 from time import sleep
 
 def convert_all_images_in_directory():
-    directory = 'C:\\Users\\User\\Documents\\EmpresasImagens'
-    directory_webp = 'C:\\Users\\User\\Documents\\EmpresasImagensWebp'
+    directory = 'diretorio\\de\\origem'
+    directory_webp = 'diretorio\\de\\destino'
     folders = [folder for folder in listdir(directory) if path.isdir(path.join(directory, folder))]
 
     if not path.isdir(directory_webp):
